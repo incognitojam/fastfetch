@@ -4055,6 +4055,19 @@ static const FFlogo P[] = {
             FF_COLOR_FG_WHITE,
         },
     },
+    // PlayStation
+    {
+        .names = {"PlayStation", "ps"},
+        .lines = FASTFETCH_DATATEXT_LOGO_PLAYSTATION,
+        .colors = {
+            FF_COLOR_FG_RGB "223;0;36",
+            FF_COLOR_FG_RGB "243;195;0",
+            FF_COLOR_FG_RGB "0;172;159",
+            FF_COLOR_FG_RGB "46;109;180",
+        },
+        .colorKeys = FF_COLOR_FG_RGB "46;109;180",
+        .colorTitle = FF_COLOR_FG_RGB "223;0;36",
+    },
     // Puppy
     {
         .names = {"Puppy"},
